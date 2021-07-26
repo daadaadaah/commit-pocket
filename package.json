@@ -1,6 +1,6 @@
 {
   "name": "commit-pocket",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "author": "daadaadaah",
   "license": "MIT",
   "description": "",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/daadaadaa/commit-pocket.git"
+    "url": "https://github.com/daadaadaah/commit-pocket.git"
   },
   "keywords": [
     "git",
