@@ -1,0 +1,34 @@
+{
+  "name": "commit-pocket",
+  "version": "1.0.11",
+  "author": "daadaadaah",
+  "license": "MIT",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "commit-pocket": "bin/cpk"
+  },
+  "scripts": {
+    "start": "node ./dist/cli.js",
+    "build": "babel src -d dist",
+    "jest": "jest --colors --watchAll",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.0",
+    "commander": "^6.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daadaadaa/commit-pocket.git"
+  },
+  "keywords": [
+    "git",
+    "node"
+  ]
+}
